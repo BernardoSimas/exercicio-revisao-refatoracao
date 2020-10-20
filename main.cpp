@@ -3,62 +3,62 @@
 
 int main() {
 
-  Engenheiro eng1;
-  eng1.nome = "Joao Snow";
-  eng1.salarioHora = 35;
-  eng1.projetos = 3; 
-  std::cout << "Nome: " << eng1.nome << std::endl;
-  std::cout << "Salario Mes: " << eng1.pagamentoMes(9.5) << std::endl;
-  std::cout << "Projetos: " << eng1.projetos << std::endl;
+  Engenheiro engenheiro1;
+  engenheiro1.nomeFuncionario = "Joao Snow";
+  engenheiro1.salarioHora = 35;
+  engenheiro1.quantidadeProjetos = 3;
+  std::cout << "Nome: " << engenheiro1.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << engenheiro1.pagamentoMes(9.5) << std::endl;
+  std::cout << "Projetos: " << engenheiro1.quantidadeProjetos << std::endl;
   std::cout << std::endl;
   
-  Engenheiro eng2;
-  eng2.nome = "Daniela Targaryen";
-  eng2.salarioHora = 30;
-  eng2.projetos = 1; 
-  std::cout << "Nome: " << eng2.nome << std::endl;
-  std::cout << "Salario Mes: " << eng2.pagamentoMes(8) << std::endl;
-  std::cout << "Projetos: " << eng2.projetos << std::endl;  
+  Engenheiro engenheiro2;
+  engenheiro2.nomeFuncionario = "Daniela Targaryen";
+  engenheiro2.salarioHora = 30;
+  engenheiro2.quantidadeProjetos = 1; 
+  std::cout << "Nome: " << engenheiro2.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << engenheiro2.pagamentoMes(8) << std::endl;
+  std::cout << "Projetos: " << engenheiro2.quantidadeProjetos << std::endl;  
   std::cout << std::endl;
   
-  Engenheiro eng3;
-  eng3.nome = "Bruno Stark";
-  eng3.salarioHora = 30;
-  eng3.projetos = 2; 
-  std::cout << "Nome: " << eng3.nome << std::endl;
-  std::cout << "Salario Mes: " << eng3.pagamentoMes(8) << std::endl;
-  std::cout << "Projetos: " << eng3.projetos << std::endl;  
+  Engenheiro engenheiro3;
+  engenheiro3.nomeFuncionario = "Bruno Stark";
+  engenheiro3.salarioHora = 30;
+  engenheiro3.quantidadeProjetos = 2; 
+  std::cout << "Nome: " << engenheiro3.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << engenheiro3.pagamentoMes(8) << std::endl;
+  std::cout << "Projetos: " << engenheiro3.quantidadeProjetos << std::endl;  
   std::cout << std::endl;
   
   
-  Vendedor vend1;
-  vend1.nome = "Tonho Lannister";
-  vend1.salarioHora = 20;
-  vend1.quotaMensalVendas = 5000;
+  Vendedor vendedor1;
+  vendedor1.nomeFuncionario = "Tonho Lannister";
+  vendedor1.salarioHora = 20;
+  vendedor1.quotaMensalVendas = 5000;
   
-  std::cout << "Nome: " << vend1.nome << std::endl;
-  std::cout << "Salario Mes: " << vend1.pagamentoMes(6) << std::endl;  
-  std::cout << "Quota vendas: " << vend1.quotaTotalAnual() << std::endl;
+  std::cout << "Nome: " << vendedor1.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << vendedor1.pagamentoMes(6) << std::endl;  
+  std::cout << "Quota vendas: " << vendedor1.quotaTotalAnual() << std::endl;
   std::cout << std::endl;
   
-  Vendedor vend2;
-  vend2.nome = "Jose Mormont";
-  vend2.salarioHora = 25;
-  vend2.quotaMensalVendas = 3000;
+  Vendedor vendedor2;
+  vendedor2.nomeFuncionario = "Jose Mormont";
+  vendedor2.salarioHora = 25;
+  vendedor2.quotaMensalVendas = 3000;
   
-  std::cout << "Nome: " << vend2.nome << std::endl;
-  std::cout << "Salario Mes: " << vend2.pagamentoMes(8) << std::endl;  
-  std::cout << "Quota vendas: " << vend2.quotaTotalAnual() << std::endl; 
+  std::cout << "Nome: " << vendedor2.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << vendedor2.pagamentoMes(8) << std::endl;  
+  std::cout << "Quota vendas: " << vendedor2.quotaTotalAnual() << std::endl; 
   std::cout << std::endl;  
 	
-  Vendedor vend3;
-  vend3.nome = "Sonia Stark";
-  vend3.salarioHora = 30;
-  vend3.quotaMensalVendas = 4000;
+  Vendedor vendedor3;
+  vendedor3.nomeFuncionario = "Sonia Stark";
+  vendedor3.salarioHora = 30;
+  vendedor3.quotaMensalVendas = 4000;
   
-  std::cout << "Nome: " << vend3.nome << std::endl;
-  std::cout << "Salario Mes: " << vend3.pagamentoMes(8) << std::endl;  
-  std::cout << "Quota vendas: " << vend3.quotaTotalAnual() << std::endl;  
+  std::cout << "Nome: " << vendedor3.nomeFuncionario << std::endl;
+  std::cout << "Salario Mes: " << vendedor3.pagamentoMes(8) << std::endl;  
+  std::cout << "Quota vendas: " << vendedor3.quotaTotalAnual() << std::endl;  
   
   return 0;	
 }
